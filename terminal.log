@@ -1,0 +1,60 @@
+=============== LOG ENTRY BEGIN ===============
+Thu Aug 30 2018 18:28:21 GMT-0700 (PDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/ghulamhazratnajafi/Desktop/homeworks/liri.js/liri.js,my-tweets
+ 
+DATA OUTPUT:
+=============== LOG ENTRY END ===============
+ 
+=============== LOG ENTRY BEGIN ===============
+Thu Aug 30 2018 18:32:01 GMT-0700 (PDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/ghulamhazratnajafi/Desktop/homeworks/liri.js/liri.js,my-tweets
+ 
+DATA OUTPUT:
+1. Tweet: Hi Twit
+Created at: Thu Aug 09 01:23:05 +0000 2018 
+2. Tweet: I Love coding
+Created at: Thu Aug 09 01:05:00 +0000 2018 
+3. Tweet: I Love Twitter
+Created at: Thu Aug 09 01:04:02 +0000 2018 
+4. Tweet: This is a test!
+Created at: Wed Aug 08 12:12:20 +0000 2018 
+5. Tweet: hellooooo!
+Created at: Wed Aug 08 12:09:53 +0000 2018 
+6. Tweet: hello!
+Created at: Wed Aug 08 11:47:45 +0000 2018 
+7. Tweet: hello world!
+Created at: Wed Aug 08 11:46:46 +0000 2018 
+8. Tweet: I love coding!
+Created at: Fri Jul 27 01:32:49 +0000 2018 
+9. Tweet: @megamansec hey from old BA users &lt;3. we hav discord now. can we pls have goobypls icon cos this admin is useles!1
+Created at: Fri Jun 15 20:24:35 +0000 2018 
+10. Tweet: @megamansec hey from old BA users &lt;3. we hav discord now. can we pls have goobypls icon cos this admin is useless. pls tweet it out xox
+Created at: Fri Jun 15 20:19:22 +0000 2018 
+11. Tweet: Happy world cup and dont forget to be #GayForTheminis
+Created at: Thu Jun 14 22:59:41 +0000 2018 
+12. Tweet: #MewIsBigGay
+Created at: Thu Jun 14 22:59:10 +0000 2018 
+13. Tweet: movie-this 'the'
+Created at: Mon Apr 30 15:55:17 +0000 2018 
+14. Tweet: spotify-this-song '1train'
+Created at: Mon Apr 30 15:54:44 +0000 2018 
+15. Tweet: my-tweets
+Created at: Mon Apr 30 15:54:16 +0000 2018 
+16. Tweet: Same as it ever was OOOOH!
+Created at: Tue Feb 06 22:18:42 +0000 2018 
+17. Tweet: Same as it ever was!
+Created at: Tue Feb 06 22:15:07 +0000 2018 
+18. Tweet: @noviyamama sorry about that Amanda.
+
+If you try logging in, it should tell you whether the email is being used or not.
+Created at: Sun Mar 13 23:58:33 +0000 2016 
+19. Tweet: @noviyamama hey Amanda sorry about that! What email did you sign up with? We can diagnose the issue for you.
+Created at: Sun Mar 13 23:45:41 +0000 2016 
+20. Tweet: Watching a #romantic movie in the #theater or on @netflix? Be sure to move your feet around in circles to improve circulation!
+Created at: Sun Feb 14 23:32:07 +0000 2016 
+=============== LOG ENTRY END ===============
+ 
