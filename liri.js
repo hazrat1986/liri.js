@@ -26,11 +26,17 @@ if (command == 'movie-this') {
 
 //function for the movie information-----------------------
 function moviethis(movie_name) {
-    request("http://www.omdbapi.com/?t=" + movie_name + "&y=&plot=short&apikey=trilogy", function (error, response, body) {
-
+    request("http://www.omdbapi.com/?t=" + movie_name + "&y=&plot=short&apikey=trilogy", function (error, response, body,Title) {
         // If the request is successful (i.e. if the response status code is 200)
         if (!error && response.statusCode === 200) {
-            console.log("The movie's rating is: " + JSON.parse(response.body).imdbRating);
+
+            console.log("*Title of the movie: " + JSON.parse(body).Title);
+            console.log("* Year the movie came out: " + JSON.parse(body).Year);
+            console.log("* Country produced:" + JSON.parse(body).Country);
+            console.log("* Language of the movie:" + JSON.parse(body).Language);
+            console.log("* Plot of the movie:" + JSON.parse(body).Plot);
+            console.log("Actors in the movie: " + JSON.parse(body).Actors);
+            console.log("* IMDB Rating of the movie: " + JSON.parse(body).imdbRating);
         }
     });
 } // end of movie function----------------------
@@ -40,7 +46,7 @@ function moviethis(movie_name) {
 function myTweets() {
 
     var Twitter = require('twitter');
- 
+
     var client = new Twitter({
         consumer_key: keys.twitter.consumer_key,
         consumer_secret: keys.twitter.consumer_secret,
@@ -48,7 +54,7 @@ function myTweets() {
         access_token_secret: keys.twitter.access_token_secret
     });
 
-    var params = {screen_name: 'Donald J. Trump'};
+    var params = { screen_name: 'Donald J. Trump' };
 
     client.get('statuses/user_timeline', params, function (error, tweets, response) {
         if (!error && response.statusCode == 200) {
@@ -90,7 +96,7 @@ function spotifythissong(name) {
             return console.log('there is an error' + err);
         }
         console.log(data);
-        console.log(dat.tracks.items[0]);
+        console.log(data.tracks.items[0]);
 
 
     });//End of the spotify function
